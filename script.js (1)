@@ -1,0 +1,142 @@
+function getValue() {
+    // Get the input element by its ID
+    var inputElement = document.getElementById("myInput");
+    // Get the value from the input element
+    var inputValue = inputElement.value;
+    // Display the value (you can do whatever you want with it)
+  function result(a) {
+    document.getElementById("roll").innerHTML = a;
+  }
+switch(inputValue){
+  case "000669":
+    result("Anamika Mitra: Qualified");
+    break;
+  case "000671":
+    result("Anjana Mondal: Qualified");
+    break;
+  case "000672":
+    document.getElementById("roll").innerHTML = "ANKHI SARKAR: Supply";
+    break;
+  case "000675":
+    document.getElementById("roll").innerHTML = "ANUSHREE GHOSH: Supply";
+    break;
+  case "000676":
+    document.getElementById("roll").innerHTML = "APARNA GHOSH: Supply";
+    break;
+  case "000677":
+    document.getElementById("roll").innerHTML = "ARPITA BISWAS: Supply";
+    break;
+  case "073864":
+    document.getElementById("roll").innerHTML = "ARPITA MONDAL: Supply";
+    break;
+  case "000679":
+    document.getElementById("roll").innerHTML = "BAISHAKHI SANTRA: Qualified";
+    break;
+  case "000681":
+    document.getElementById("roll").innerHTML = "BANTI BISWAS: Qualified";
+    break;
+  case "000682":
+    document.getElementById("roll").innerHTML = "BARSHA BISWAS: Qualified";
+    break;
+  case "073866":
+    document.getElementById("roll").innerHTML = "BARSHA MONDAL: Qualified";
+    break;
+  case "073867":
+    document.getElementById("roll").innerHTML = "BEAUTI MONDAL: Supply";
+    break;
+  case "000683":
+    document.getElementById("roll").innerHTML = "BEAUTY ROY: Supply";
+    break;
+  case "000684":
+    document.getElementById("roll").innerHTML = "BIDISHA  PRAMANICK: Qualified";
+    break;
+  case "000685":
+    document.getElementById("roll").innerHTML = "BIDISHA BISWAS: Supply";
+    break;
+  case "000686":
+    document.getElementById("roll").innerHTML = "BIDISHA KHATUN: Supply";
+    break;
+  case "000687":
+    document.getElementById("roll").innerHTML = "BIPASA MONDAL: Supply";
+    break;
+  case "000688":
+    document.getElementById("roll").innerHTML = "BIPASHA BISWAS: Qualified";
+    break;
+  case "000689":
+    document.getElementById("roll").innerHTML = "BIPASHA KUNDU: Qualified";
+    break;
+  case "000690":
+    document.getElementById(roll).innerHTML = "BIPASHA MANDAL: Supply";
+    break;
+  case "000691":
+    document.getElementById("roll").innerHTML = "BISHAKHA GHOSH: Supply";
+    break;
+  case "073868":
+    document.getElementById("roll").innerHTML = "BITHI MOULICK: Supply";
+    break;
+  case "000692":
+    document.getElementById("roll").innerHTML = "BRISTI BISWAS: Supply";
+    break;
+  case "000693":
+    document.getElementById("roll").innerHTML = "BRISTI BISWAS: Qualified";
+    break;
+  case "000694":
+    document.getElementById("roll").innerHTML = "CHHANDA MONDAL: Supply";
+    break;
+  case "000695":
+    document.getElementById("roll").innerHTML = "DEBLINA HALDER: Qualified";
+    break;
+  case "000696":
+    document.getElementById("roll").innerHTML = "DEBOSMITA ROY: Supply";
+    break;
+  case "000698":
+    document.getElementById("roll").innerHTML = "DISHA MONDAL: Supply";
+    break;
+  case "000699":
+    document.getElementById("roll").innerHTML = "DONA BISWAS: Supply";
+    break;
+  case "000700":
+    document.getElementById("roll").innerHTML = "ESHA BISWAS: Qualified";
+  case "001394":
+    document.getElementById("roll").innerHTML = "ISHA MAJHI: Supply";
+    break;
+  case "002187":
+    result("DEBJIT BHAKTA: Supply");
+    break;
+  case "002498":
+    result("RANISH KUMAR KHAN: Qualified");
+    break;
+  case "002529":
+    result("ROHAN PODDER: Qualified");
+    break;
+  case "002505":
+    result("RASHOMAY BISWAS: Qualified");
+    break;
+  case "002738":
+    result("SUBRATA SARKAR: Qualified");
+    break;
+  case "002739":
+    result("SUBRATA SARKAR: Supply");
+    break;
+  case "002632":
+    result("SANU KHAN: Qualified");
+  case "001323":
+    result("BINITA HALDER: Qualified");
+    break;
+  case "011261":
+    result("SUBRATA SARKAR: Supply");
+    break;
+  case "011262":
+    result("SUBRATA SARKAR: Supply");
+    break;
+  case "029343":
+    result("SUBRATA SARKAR: Qualified");
+    break;
+  case "029344":
+    result("SUBRATA SARKAR: Qualified");
+    break;
+  default:
+    result("Not found");
+    break;
+    }
+}

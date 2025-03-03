@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  margin: 3%;
+  padding: 2%;
+  background-color: #f2f2f2;
+  font-size: 44px;
+}
+#myInput{
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.btn-1{
+  margin: 5%;
+  width: 90%;
+  color: #ffffff;
+  background-color: #4daca1;
+  border: none;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#roll{
+  color: royalblue;
+}
+@media screen and (max-width: 600px) {
+  .main{
+    font-size: 20px;
+  }
+  .p-1{
+    margin-bottom: 5px;
+  }
+  #myInput{
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .btn-1{
+    margin: 5%;
+    width: 90%;
+    color: #ffffff;
+    background-color: #4daca1;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .output p{
+    font-size: 22px;
+  }
+  #roll{
+    font-size: 20px;
+  }
+}
